@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>$RRCoin</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Jacquard+12&family=Jaro:opsz@6..72&family=Orbitron:wght@400..900&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets\RRcoin.png">
+
+  <style>
+    body {
+      font-family: "Black Ops One", system-ui;
+      font-size: xx-large;
+      background-color: #754fff;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+
+    .mySlides {
+      display: none
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <div class="w3-top">
+    <div class="w3-bar w3-card" style="background-color: #754fff; color: #fff;">
+      <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)"
+        onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+      <a href="#" class="w3-bar-item w3-button w3-padding-large">Home</a>
+      <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About</a>
+      <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">How to Buy</a>
+      <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Tokenomics</a>
+
+      <div class="positioning-t w3-right w3-padding-large">
+        <!-- telegram tu vai colocar o link logo no HREF, entre as aspas -->
+
+        <a href="https://t.me/RRCOINS" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0,0,256,256">
+            <g fill="#fff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+              stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0"
+              font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+              <g transform="scale(5.12,5.12)">
+                <path
+                  d="M46.137,6.552c-0.75,-0.636 -1.928,-0.727 -3.146,-0.238h-0.002c-1.281,0.514 -36.261,15.518 -37.685,16.131c-0.259,0.09 -2.521,0.934 -2.288,2.814c0.208,1.695 2.026,2.397 2.248,2.478l8.893,3.045c0.59,1.964 2.765,9.21 3.246,10.758c0.3,0.965 0.789,2.233 1.646,2.494c0.752,0.29 1.5,0.025 1.984,-0.355l5.437,-5.043l8.777,6.845l0.209,0.125c0.596,0.264 1.167,0.396 1.712,0.396c0.421,0 0.825,-0.079 1.211,-0.237c1.315,-0.54 1.841,-1.793 1.896,-1.935l6.556,-34.077c0.4,-1.82 -0.156,-2.746 -0.694,-3.201zM22,32l-3,8l-3,-10l23,-17z">
+                </path>
+              </g>
+            </g>
+          </svg>
+        </a>
+
+        <!-- twitter tu vai colocar o link logo no HREF, entre as aspas -->
+        <a href="https://x.com/rrcoinsol" target="_blank">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="30" height="30" viewBox="0 0 50 50" fill=#fff>
+            <path
+              d="M 6.9199219 6 L 21.136719 26.726562 L 6.2285156 44 L 9.40625 44 L 22.544922 28.777344 L 32.986328 44 L 43 44 L 28.123047 22.3125 L 42.203125 6 L 39.027344 6 L 26.716797 20.261719 L 16.933594 6 L 6.9199219 6 z">
+            </path>
+          </svg>
+        </a>
+        <!-- PUMP tu vai colocar o link logo no HREF, entre as aspas -->
+        <a href="https://pump.fun" target="_blank">
+          <svg width="30px" height="30px" viewBox="0 0 72 72" id="emoji" xmlns="http://www.w3.org/2000/svg" fill="#fff">
+            <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+            <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+            <g id="SVGRepo_iconCarrier">
+              <g id="color">
+                <path fill="#5DCA87" stroke="none"
+                  d="M44.33,44.71L32.52,56.52c-4.53,4.54-11.85,4.7-16.58,0.4901c8.96,0.08,8.4,0.65,24.87-15.82L44.33,44.71z">
+                </path>
+                <path fill="#8ADBA9" stroke="none"
+                  d="M40.81,41.19C24.34,57.66,24.9,57.09,15.94,57.01c-0.18-0.16-0.35-0.32-0.52-0.4901 c-2.35-2.35-3.53-5.45-3.53-8.55c0-3.1,1.18-6.2,3.53-8.55l11.81-11.81L40.81,41.19z">
+                </path>
+                <path fill="#ffffff" stroke="none"
+                  d="M56.85,15.1c-2.47-2.47-5.75-3.83-9.2599-3.83c-3.51,0-6.8,1.36-9.26,3.83L25.81,27.61l18.52,18.52 l12.51-12.52c2.47-2.46,3.83-5.75,3.83-9.26C60.67,20.85,59.31,17.56,56.85,15.1z M56.14,32.9L44.33,44.71l-3.52-3.52 c0.42-0.42,0.86-0.86,1.31-1.31c15.72-15.72,8.77-25.05,6.21-27.59c2.85,0.18,5.65,1.35,7.81,3.51c2.35,2.35,3.53,5.45,3.53,8.55 C59.67,27.45,58.49,30.55,56.14,32.9z">
+                </path>
+                <path fill="#ffffff" stroke="none"
+                  d="M57.55,14.39c-2.65-2.66-6.19-4.1201-9.96-4.1201c-3.78,0-7.32,1.46-9.97,4.1201L24.4,27.61l1.41,1.42 l17.1,17.1l1.42,1.41l13.22-13.22c2.66-2.66,4.12-6.2,4.12-9.97S60.21,17.04,57.55,14.39z M44.33,44.71l-3.52-3.52L27.23,27.61 L39.04,15.8c2.35-2.35,5.45-3.53,8.55-3.53c0.25,0,0.49,0.01,0.74,0.02c2.85,0.18,5.65,1.35,7.81,3.51 c2.35,2.35,3.53,5.45,3.53,8.55c0,3.1-1.18,6.2-3.53,8.55L44.33,44.71z">
+                </path>
+                <path fill="#D6E2E2" stroke="none"
+                  d="M59.67,24.35c0,3.1-1.18,6.2-3.53,8.55L44.33,44.71l-3.52-3.52c0.42-0.42,0.86-0.86,1.31-1.31 c15.72-15.72,8.77-25.05,6.21-27.59c2.85,0.18,5.65,1.35,7.81,3.51C58.49,18.15,59.67,21.25,59.67,24.35z">
+                </path>
+                <line x1="27.2279" x2="26.6579" y1="27.6135" y2="27.0335" fill="none" stroke="none"></line>
+                <rect x="40.8452" y="39.0132" width="5.8082" height="6.5641"
+                  transform="matrix(0.7071 0.7071 -0.7071 0.7071 42.7211 -18.5474)" fill="#D6E2E2" stroke="none"></rect>
+              </g>
+              <g id="hair"></g>
+              <g id="skin"></g>
+              <g id="skin-shadow"></g>
+              <g id="line">
+                <path fill="#262829" stroke="none"
+                  d="M47.5877,12.2742c3.1001,0,6.2001,1.1759,8.5519,3.5276l0,0c4.7035,4.7035,4.7035,12.4002,0,17.1038 L32.52,56.5251c-2.3518,2.3518-5.4518,3.5277-8.5519,3.5277c-3.1001,0-6.2001-1.1759-8.5519-3.5277l0,0 c-4.7035-4.7035-4.7035-12.4002,0-17.1038l23.6195-23.6195C41.3875,13.45,44.4876,12.2742,47.5877,12.2742 M47.5877,10.2742 c-3.7741,0-7.3135,1.4608-9.9661,4.1134L14.002,38.0071c-5.4953,5.4953-5.4953,14.4369,0,19.9322 c2.6526,2.6526,6.192,4.1135,9.9661,4.1135c3.7741,0,7.3135-1.4608,9.9661-4.1134l23.6196-23.6195 c5.4953-5.4953,5.4953-14.4369,0-19.9322C54.9012,11.735,51.3618,10.2742,47.5877,10.2742L47.5877,10.2742z">
+                </path>
+                <line x1="28.5625" x2="41.4219" y1="30.4062" y2="43.2656" fill="none" stroke="#262829"
+                  stroke-linecap="round" stroke-miterlimit="10" stroke-width="2"></line>
+              </g>
+            </g>
+          </svg>
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+  <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About</a>
+    <a href="#tokenomics" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Tokenomics</a>
+    <a href="#howto" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">How to Buy</a>
+  </div>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+    <!-- Automatic Slideshow Images -->
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/rr.png" style="width:100%; height: 860px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h1 style="color: #b485ff; font-family: Jaro; border: #343434; border-radius: 2px;">never gonna give
+          you up</h1>
+        <p style="color: rgb(253, 253, 253);"><b>$RRCOIN is ready to roll into your wallet!</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/rr.png" style="width:100%; height: 860px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h1 style="color: #b485ff; font-family: Jaro; border: #343434; border-radius: 2px;">never gonna give
+          you up</h1>
+        <p style="color: rgb(253, 253, 253);"><b>$RRCOIN is ready to roll into your wallet!</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/rr.png" style="width:100%; height: 860px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h1 style="color: #b485ff; font-family: Jaro; border: #343434; border-radius: 2px;">never gonna give
+          you up</h1>
+        <p style="color: rgb(253, 253, 253);"><b>$RRCOIN is ready to roll into your wallet!</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/RR-1.png" style="width:100%; height: 860px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h1 style="color: #b485ff; font-family: Jaro; border: #343434; border-radius: 2px;">never gonna give
+          you up</h1>
+        <p style="color: rgb(253, 253, 253);"><b>$RRCOIN is ready to roll into your wallet!</b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/RR-2.png" style="width:100%; height: 860px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/RR-3.png" style="width:100%; height: 860px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+        <h1 style="color: #b485ff; font-family: Jaro;">never gonna let you down</h1>
+        <p style="color: rgb(255, 255, 255);"><b>$RRCOIN is ready to roll into your wallet! </b></p>
+      </div>
+    </div>
+    <div class="mySlides w3-display-container w3-center">
+      <img src="assets/RR-4.png" style="width:100%; height: 860px;">
+      <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+      </div>
+    </div>
+
+    <!-- The Band Section -->
+    <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px;" id="band">
+      <h1 class="w3-wide" style="font-family: Jaro; font-size: xx-large; color:#ebc20f">$RRCOIN</h1>
+      <p class="w3-opacity"><i>You have been rickrolled.</i></p>
+      <p class="w3-justify" style="color: #ffc400;">$RRCOIN is here to never give you up! Now, $RRCOIN is rolling onto
+        Solana and will never let you down.</p>
+      <div class="w3-row w3-padding-32">
+        <div class="w3-third">
+          <p style="color: #ffc400;">$RRCOIN</p>
+          <img src="assets\RRcoin.png" class="w3-round w3-margin-bottom" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p style="color: #ffc400;">$RRCOIN</p>
+          <img src="assets\RRcoin.png" class="w3-round" style="width:60%">
+        </div>
+        <div class="w3-third">
+          <p style="color: #ffc400;">$RRCOIN</p>
+          <img src="assets\RRcoin.png" class="w3-round" style="width:60%">
+        </div>
+      </div>
+    </div>
+
+    <!-- The Tour Section -->
+    <div class="w3-black" id="tour" style="background-color: #ffc400 !important;">
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px; background-color: #ffc400;">
+        <h2 class="w3-wide w3-center" style="font-family: Black Ops One;">How to Buy $RRCOIN Coin</h2>
+
+        <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+          <div class="w3-third w3-margin-bottom">
+            <!-- <img src="/w3images/newyork.jpg" alt="New York" style="width:100%" class="w3-hover-opacity"> -->
+            <div class="w3-container w3-white" style="border-radius: 10px;">
+              <p><b>Set up Phantom</b></p>
+              <p style="font-size: large;">Install Phantom wallet on your browser from the official website.</p>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <!-- <img src="/w3images/paris.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity"> -->
+            <div class="w3-container w3-white" style="border-radius: 10px;">
+              <p><b>Fund Phantom</b></p>
+              <p style="font-size: large;">Add some SOL to your Phantom Wallet directly or through an exchange. &nbsp;
+              </p>
+            </div>
+          </div>
+          <div class="w3-third w3-margin-bottom">
+            <!-- <img src="/w3images/sanfran.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity"> -->
+            <div class="w3-container w3-white" style="border-radius: 10px;">
+              <p> <b>Buy</b><b style="color: #ffc400;"> $RRCOIN</b></p>
+              <p style="font-size: large;"> Go to Raydium, use the $RRCOIN to swap your SOL for $RRCOIN.
+              </p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- The Contact Section -->
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
+      <h1 style="font-family: Jaro; color: #343434; text-align: center;"> Tokenomics</h1>
+      <!-- tokenomics tu -->
+      <p class="w3-opacity w3-center">
+      <h4 style="font-family: Jaro;">CA: GiYQdx1c8EWhSDSMbbP9APsejPahcUjYR6qpbLc2BqeD </h4>
+      </p>
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white"
+            style="border-radius: 10px; background-color: #b485ff !important; border-color: #754fff;">
+            <p><b>1B Total Supply</b></p>
+
+          </div>
+          <img src="assets\RRcoin.png" class="w3-round" style="width:60%">
+
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white"
+            style="border-radius: 10px; background-color: #b485ff !important; border-color: #754fff;">
+            <p><b>0% Tax &nbsp; Fair Launch</b></p>
+            </p>
+          </div>
+          <img src="assets\RRcoin.png" class="w3-round" style="width:60%;">
+
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <div class="w3-container w3-white"
+            style="border-radius: 10px; background-color: #b485ff !important; border-color: #754fff;">
+            <p><b>Mint Revoked</b></p>
+
+          </div>
+          <img src="assets\RRcoin.png" class="w3-round" style="width:60%">
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- End Page Content -->
+  </div>
+
+  <!-- Image of location/map -->
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+    <h1 style="font-family: Jaro; font-size: 100px; color: #ffc400;"> BUY $RRCOIN NOW!</h1>
+  </footer>
+
+  <script>
+    // Automatic Slideshow - change image every 4 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 250);
+    }
+
+    // Used to toggle the menu on small screens when clicking on the menu button
+    function myFunction() {
+      var x = document.getElementById("navDemo");
+      if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+      } else {
+        x.className = x.className.replace(" w3-show", "");
+      }
+    }
+
+    // When the user clicks anywhere outside of the modal, close it
+    var modal = document.getElementById('ticketModal');
+    window.onclick = function (event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+  </script>
+
+</body>
+
+</html>
